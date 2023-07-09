@@ -1,0 +1,37 @@
+header {
+    margin: 0;
+    color: #D3C0B2;
+    background-color: #59231B;
+    height: 150px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+body {
+    background-color: rgb(115, 172, 115);
+    color: #FFFFFF;
+}
+
+footer {
+    color: #D3C0B2;
+    background-color: rgb(78, 169, 230);
+    width: 100%;
+    height: 80px;
+    position: absolute;
+    bottom: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lungs {
+width: 76.67px;
+height: 80.27px;
+top: 35px;
+left: 31px;
+border: 1px;
+display: flex;
+}
