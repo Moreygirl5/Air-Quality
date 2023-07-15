@@ -11,8 +11,9 @@ header {
 }
 
 body {
-    background-color: rgb(115, 172, 115);
+    background-color: rgb(96, 133, 96);
     color: #FFFFFF;
+    padding: 50px;
 }
 
 a {
@@ -27,8 +28,8 @@ a, a:hover, a:visited, a:active {
 
 
 footer {
-    color: #D3C0B2;
-    background-color: rgb(78, 169, 230);
+    color: #ffffff;
+    background-color: rgb(111, 152, 180);
     width: 100%;
     height: 80px;
     bottom: 0px;
@@ -60,6 +61,7 @@ top: 35px;
 left: 31px;
 border: 1px;
 display: flex;
+margin-left: 20px;
 }
 
 .headline {
@@ -88,11 +90,11 @@ display: flex;
 }
 
 .outdoor-photo {
-    width: 350px
-    height: 272.22222900390625px
-    top: 356px
-    left: 1015px
-    border-radius: 50px
+    width: 350px;
+    height: 272.22222900390625px;
+    top: 356px;
+    left: 1015px;
+    border-radius: 50px;
     
 }
 
@@ -108,11 +110,11 @@ display: flex;
 }
 
 .environmental-photo {
-    width: 350px
-    height: 272.22222900390625px
-    top: 704px
-    left: 69px
-    border-radius: 50px
+    width: 350px;
+    height: 272.22222900390625px;
+    top: 704px;
+    left: 69px;
+    border-radius: 50px;
     
 }
 
@@ -125,4 +127,5 @@ display: flex;
     margin-left: 1500px;
     font-size: xx-large;
     margin-bottom: 20px;
+    
 }
