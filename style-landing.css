@@ -1,0 +1,128 @@
+header {
+    margin: 0;
+    color: #D3C0B2;
+    background-color: #59231B;
+    height: 150px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+body {
+    background-color: rgb(115, 172, 115);
+    color: #FFFFFF;
+}
+
+a {
+    text-decoration: none;
+}
+
+a, a:hover, a:visited, a:active {
+    color: inherit;
+    text-decoration: none;
+   }
+
+
+
+footer {
+    color: #D3C0B2;
+    background-color: rgb(78, 169, 230);
+    width: 100%;
+    height: 80px;
+    bottom: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-title {
+    padding-right: 1000px;
+    font-size: 62px;
+    
+}
+
+.info {
+    padding-right: 100px;
+    font-size: 24px;
+}
+
+.search {
+    padding-left: 100px;
+    font-size: 24px;
+}
+
+.lungs {
+width: 76.67px;
+height: 80.27px;
+top: 35px;
+left: 31px;
+border: 1px;
+display: flex;
+}
+
+.headline {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 62px;
+}
+
+.info-container {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    flex-wrap: wrap;
+    row-gap: 50px;
+}
+
+.p1 {
+    font-family: Imprima;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 58px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 75%;
+    
+}
+
+.outdoor-photo {
+    width: 350px;
+    height: 272.22222900390625px;
+    top: 356px;
+    left: 1015px;
+    border-radius: 50px;
+    
+}
+
+.p2 {
+    font-family: Imprima;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 58px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 75%;
+    
+}
+
+.environmental-photo {
+    width: 350px;
+    height: 272.22222900390625px;
+    top: 704px;
+    left: 69px;
+    border-radius: 50px;
+    
+}
+
+.search-button {
+    background-color: #59231B;
+    color: #D3C0B2;
+    height: 150px;
+    width: 300px;
+    border-radius: 25px;
+    margin-left: 1500px;
+    font-size: xx-large;
+    margin-bottom: 20px;
+}
