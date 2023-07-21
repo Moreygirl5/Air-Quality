@@ -3,7 +3,7 @@
     background-color: rgb(142, 192, 142);
     padding: 1%;
     width: 45%;
-    max-height: 15%;
+    max-height: 50%;
     text-align: center;
     border-radius: 25px;
 }
@@ -12,11 +12,14 @@
 #values-container {
     display: flex;
     flex-direction: column;
-    margin: 5% 0 0 25%;
+    margin: 5% 0 0 0;
 }
 
 .pollutant-container {
     margin: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
  
 h3 {

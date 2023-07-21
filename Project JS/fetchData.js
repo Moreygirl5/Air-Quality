@@ -12,7 +12,6 @@ const pm10Concentration = document.getElementById("pm10-concentration");
 const overallAqi = document.getElementById("overall-aqi");
 const explanationContainer = document.getElementById("explanation-container");
 
-const goodBlurb = ""
 
 console.log(city);
 
@@ -43,21 +42,14 @@ function populateResults() {
     };
 
     circle.innerText = "●";
-   // image.setAttribute("src", imageSet.images[0]);
-   // title.innerText = `${imageSet.title} - ${imageSet.name}`;
-    // link.setAttribute("href", `../Gallery Page/gallery.html?id=${imageSet.id}`);
-    // link.innerText = "See More";
   
   
   
     circle.classList.add("circle");
     circle.innertext = "●";
-    //title.classList.add("gallery-title");
-    //link.classList.add("gallery-link");
     explanationContainer.appendChild(status);
     explanationContainer.appendChild(circle);
-   // card.appendChild(title);
-   // card.appendChild(link)
+
 };
 
 
