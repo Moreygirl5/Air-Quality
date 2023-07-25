@@ -23,22 +23,34 @@ function populateResults() {
     
     if (currentAqi <= 50) {
         status.innerText = "Good."
-        circle.style.color = "green";
+        circle.style.color = "green"
+        blurb.innerText = "Air quality is satisfactory, and air pollution poses little or no risk."
+        explanationContainer.appendChild(blurb);
     } else if (currentAqi > 50 && currentAqi <= 100 ) {
         status.innerText = "Moderate."
-        circle.style.color = "yellow";
+        circle.style.color = "yellow"
+        blurb.innerText = "Air quality is acceptable. However, there may be a risk for some people, particularly those who are unusually sensitive to air pollution."
+        explanationContainer.appendChild(blurb);
     } else if (currentAqi > 100 && currentAqi <= 150 ) {
         status.innerText = "Unealthy for Sensitive Groups."
-        circle.style.color = "orange";
+        circle.style.color = "orange"
+        blurb.innerText = "Members of sensitive groups may experience health effects. The general public is less likely to be affected."
+        explanationContainer.appendChild(blurb);
     } else if (currentAqi > 150 && currentAqi <= 200 ) {
         status.innerText = "Unhealthy."
-        circle.style.color = "red";
+        circle.style.color = "red"
+        blurb.innerText = "	Some members of the general public may experience health effects; members of sensitive groups may experience more serious health effects."
+        explanationContainer.appendChild(blurb);
     } else if (currentAqi > 200 && currentAqi <= 300 ) {
         status.innerText = "Very Unhealthy."
-        circle.style.color = "purple";
+        circle.style.color = "purple"
+        blurb.innerText = "Health alert: The risk of health effects is increased for everyone."
+        explanationContainer.appendChild(blurb);
     } else if (currentAqi > 300) {
         status.innerText = "Hazardous."
-        circle.style.color = "maroon";
+        circle.style.color = "maroon"
+        blurb.innerText = "Health warning of emergency conditions: everyone is more likely to be affected."
+        explanationContainer.appendChild(blurb);
     };
 
     circle.innerText = "●";
