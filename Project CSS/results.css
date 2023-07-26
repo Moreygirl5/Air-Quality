@@ -27,6 +27,7 @@ h3 {
     font-weight: bold;
     margin-bottom: 2px;
     text-align: center;
+    margin: 10px;
  }
  
  main {
@@ -40,6 +41,8 @@ h3 {
     flex-direction: column;
     align-content: center;
     background-color: rgb(142, 192, 142);
+    border-radius: 25%;
+    height: 100%;
  }
 
  #results-box {
@@ -60,4 +63,16 @@ h3 {
 
  #overall-aqi {
     text-align: center;
+    margin: 10px;
+    font-size: 24px;
+ }
+
+ .status {
+   margin-bottom: 10px;
+   font-weight: bold;
+ }
+
+ .blurb {
+   text-align: center;
+   margin: 20px 10px 0 10px
  }
