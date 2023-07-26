@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream:info.css
 header {
 	font-family: 'Montserrat', sans-serif;
     margin: 0;
@@ -79,6 +80,14 @@ h3 {
 }
 
 .carousel-container {
+=======
+h3 {
+  text-align: center;
+  font-size: 62px;
+}
+
+#carousel-container {
+>>>>>>> Stashed changes:Project CSS/info.css
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -91,12 +100,20 @@ h3 {
     border-radius: 25px;
   }
   
-  .facts {
+  #facts {
     display: flex;
     flex-wrap: nowrap;
     overflow: hidden;
     padding-top: 50px;
+<<<<<<< Updated upstream:Project CSS/info.css
     width: 80%;
+=======
+<<<<<<< Updated upstream:info.css
+=======
+    width: 80%;
+    height: 100%;
+>>>>>>> Stashed changes:Project CSS/info.css
+>>>>>>> Stashed changes:info.css
   }
   
   .fact {

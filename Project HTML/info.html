@@ -7,20 +7,24 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../Project CSS/universal.css">
     <link rel="stylesheet" href="../Project CSS/info.css">
 </head>
 <body>
-    <header>
-        <img class="lungs" src="../Assets/Vector.png"><h1 class="header-title">Breath It</h1>
-        <nav>
-            <a class="nav-item" href="../Project HTML/search.html">Search</a>
-            <a class="nav-item" href="../Project HTML/info.html">Info</a>
-        </nav>
-    </header>
+  <header>
+    <div id="title-container">
+        <img id="lungs" src="../Assets/Vector.png">
+        <h1 id="header-title"><a href="../Project HTML/landing.html">Breath It</a></h1>
+    </div>
+    <nav>
+        <a class="nav-item" href="../Project HTML/search.html">Search</a>
+        <a class="nav-item" href="../Project HTML/info.html">Info</a>
+    </nav>
+</header>
     <main>
         <h3>A Guide to Our Planet's Pollutants</h3>
-        <div class="carousel-container">
-            <div class="facts">
+        <div id="carousel-container">
+            <div id="facts">
               <div class="fact"><strong>Carbon Monoxide</strong> is a colorless, odorless gas that can be harmful when inhaled in large amounts. CO is released when something is burned. The greatest sources of CO to outdoor air are cars, trucks and other vehicles or machinery that burn fossil fuels. A variety of items in your home such as unvented kerosene and gas space heaters, leaking chimneys and furnaces, and gas stoves also release CO and can affect air quality indoors. <br><img src="../Assets/fire.jpg" alt="fire"></div>
               <div class="fact"><strong>Nitrogen Dioxide</strong> is one of a group of highly reactive gases known as oxides of nitrogen or nitrogen oxides (NOx). Other nitrogen oxides include nitrous acid and nitric acid. NO2 is used as the indicator for the larger group of nitrogen oxides. NO2 primarily gets in the air from the burning of fuel. NO2 forms from emissions from cars, trucks and buses, power plants, and off-road equipment. <br><img src="../Assets/car-emissions.jpg" alt="car emissions"></div>
               <div class="fact"><strong>Ozone</strong> at ground level is a harmful air pollutant, because of its effects on people and the environment, and it is the main ingredient in “smog." Ozone is most likely to reach unhealthy levels on hot sunny days in urban environments, but can still reach high levels during colder months. Ozone can also be transported long distances by wind, so even rural areas can experience high ozone levels. <br><img src="../Assets/smog.jpg" alt="smog"> </div>
@@ -34,38 +38,8 @@
 <footer>
     <h2>Breathe healthy and be healthy.</h2>
 </footer>
-<script>
-    const facts = document.querySelectorAll(".fact");
-    const prevBtn = document.getElementById("prevBtn");
-    const nextBtn = document.getElementById("nextBtn");
-    let currentIndex = 0;
-  
-    function showFact(index) {
-      facts.forEach((fact, i) => {
-        fact.style.display = i === index ? "block" : "none";
-      });
-    }
-  
-    function showNextFact() {
-      currentIndex = (currentIndex + 1) % facts.length;
-      showFact(currentIndex);
-    }
-  
-    function showPreviousFact() {
-      currentIndex = (currentIndex - 1 + facts.length) % facts.length;
-      showFact(currentIndex);
-    }
-  
-    prevBtn.addEventListener("click", () => {
-      showPreviousFact();
-    });
-  
-    nextBtn.addEventListener("click", () => {
-      showNextFact();
-    });
-  
-    showFact(currentIndex);
-  </script>      
+<script src="../Project JS/info.js">
+</script>      
   
 </body>
 </html>
