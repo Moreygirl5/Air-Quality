@@ -1,20 +1,4 @@
 console.log("I'm here")
-<<<<<<< Updated upstream
-
-
-document.getElementById('search-button').addEventListener('click', function() {
-    let searchValue = document.getElementById('search-input').value;
-    let city = '';
-
-    city = searchValue.trim();
-
-    var url = '../Project HTML/results.html?city=' + encodeURIComponent(city);
-
-    console.log(city);
-    console.log(url);
-
-    window.location.href = url;
-=======
 //Test console log
 
 document.getElementById('search-button').addEventListener('click', function() {
@@ -30,5 +14,4 @@ document.getElementById('search-button').addEventListener('click', function() {
     //more test console logs
     window.location.href = url;
     //automatically goes to the url we saved as a variable earlier (our results page with the appropriate url parameter)
->>>>>>> Stashed changes
 });
