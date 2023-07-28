@@ -1,0 +1,128 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*Universal*/
+
+body {
+    background-color:     rgb(96, 133, 96);
+    color: #FFFFFF;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+main {
+	padding: 0 50px 0 50px;
+}
+
+header {
+	font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    color: #D3C0B2;
+    background-color: #59231B;
+    height: 150px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer {
+    color: #D3C0B2;
+    background-color: #59231B;
+    width: 100%;
+    height: 50px;
+    margin-top: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	position: fixed;
+  	left: 0;
+  	bottom: 0;
+}
+
+nav {
+    display: flex;
+    gap: 25%;
+    margin-right: 5%;
+}
+
+.nav-item {
+    font-size: 24px;
+}
+
+
+#lungs {
+    margin-left: 20px;
+    width: 25%;
+    min-width: 100px;
+    max-height: 100px;
+}
+
+#title-container {
+    display: flex;
+    justify-content: space-between;
+    flex-shrink: none;
+    width: 20%;
+}
+
+#header-title {
+	font-family: 'Poppins', sans-serif;
+    font-size: 48px;
+    padding-top: 5%;
+    margin-left: 30px;
+}
+
+main {
+	font-family: 'Inter', sans-serif;
+	margin: 100px;
+}

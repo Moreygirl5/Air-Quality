@@ -1,0 +1,78 @@
+#city-name {
+    font-size: 62px;
+    background-color: rgb(142, 192, 142);
+    padding: 1%;
+    width: 45%;
+    max-height: 50%;
+    text-align: center;
+    border-radius: 25px;
+}
+
+
+#values-container {
+    display: flex;
+    flex-direction: column;
+    margin: 5% 0 0 0;
+}
+
+.pollutant-container {
+    margin: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+ 
+h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 2px;
+    text-align: center;
+    margin: 10px;
+ }
+ 
+ main {
+    display: flex;
+    justify-content: center;
+ }
+
+ #overall-aqi-container {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    background-color: rgb(142, 192, 142);
+    border-radius: 25%;
+    height: 100%;
+ }
+
+ #results-box {
+    width: 100%;
+ }
+
+ .circle {
+    display: block;
+    font-size: 200px;
+ }
+
+ #explanation-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+
+ #overall-aqi {
+    text-align: center;
+    margin: 10px;
+    font-size: 24px;
+ }
+
+ .status {
+   margin-bottom: 10px;
+   font-weight: bold;
+ }
+
+ .blurb {
+   text-align: center;
+   margin: 20px 10px 0 10px
+ }
